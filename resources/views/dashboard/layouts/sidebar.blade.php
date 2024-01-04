@@ -14,25 +14,25 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ Request::is('dashboard/produks*') ? 'active' : '' }}" href="/dashboard/produks">
+                <a class="nav-link {{ Request::is('dashboard/taktiks*') ? 'active' : '' }}" href="/dashboard/taktiks">
                     <span data-feather="file-text" class="align-text-bottom"></span>
-                    Pelatihan Atlit
+                    Pelatihan Taktik Atlit
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ Request::is('dashboard/tentangs*') ? 'active' : '' }}" href="/dashboard/tentangs">
+                <a class="nav-link {{ Request::is('dashboard/pelatihans*') ? 'active' : '' }}" href="/dashboard/pelatihans">
                     <span data-feather="file-text" class="align-text-bottom"></span>
-                    Rekomendasi Asupan Gizi 
+                    Metode Pelatihan Atlit
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ Request::is('dashboard/layanans*') ? 'active' : '' }}" href="/dashboard/layanans">
+                <a class="nav-link {{ Request::is('dashboard/asupans*') ? 'active' : '' }}" href="/dashboard/asupans">
                     <span data-feather="file-text" class="align-text-bottom"></span>
-                    Riwayat Atlit
+                    Rekomendasi Asupan Atlit
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ Request::is('dashboard/portofolios*') ? 'active' : '' }}" href="/dashboard/portofolios">
+                <a class="nav-link {{ Request::is('dashboard/statistiks*') ? 'active' : '' }}" href="/dashboard/statistiks">
                     <span data-feather="file-text" class="align-text-bottom"></span>
                     Statistik Atlit
                 </a>
